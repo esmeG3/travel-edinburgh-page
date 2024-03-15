@@ -1,137 +1,150 @@
-
 body {
-    font-family: 'raleway', sans-serif;
-    background: #1D3059;
+  font-family: "raleway", sans-serif;
+  background: #1d3059;
 }
 
 container {
-    max-width: 1400px;
-    margin: 0 auto;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 main {
-    background-color: #fff;
-    padding: 0;
+  background-color: #fff;
+  padding: 0;
 }
 section {
-    max-width: 100%;
-    margin: 0;
-    padding: 100px;
+  max-width: 100%;
+  margin: 0;
+  padding: 100px;
 }
 
 .secondary {
-    background-color: #F1F1F1;
+  background-color: #f1f1f1;
 }
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)),
     url("../images/edinburgh-city.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-    text-align: center;
-    padding: 200px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 200px 0;
 }
 
 header h1 {
-    font-size: 96px;
-    font-weight: 700;
-    margin: 0;
-    padding: 20px 0px 30px;
-    letter-spacing: 3px;
+  font-size: 96px;
+  font-weight: 700;
+  margin: 0;
+  padding: 20px 0px 30px;
+  letter-spacing: 3px;
 }
 
 header h2 {
-    font-size:36px;
-    font-weight: 400;
-    line-height: 1.5;
-    margin: 0;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
 }
 
-header h3, main h2 {
-font-size: 22px;
-letter-spacing: 7px;
-margin: 0;
-line-height: 1.5;
+header h3,
+main h2 {
+  font-size: 22px;
+  letter-spacing: 7px;
+  margin: 0;
+  line-height: 1.5;
 }
 
 header a {
-text-decoration: none;
-color: #1D3059;
-margin-top: 30px;
-padding: 15px 25px;
-background: white;
-display: inline-block;
-opacity: 0.8;
-font-weight: 600;
-border: 1px solid #1D3059;
-border-radius: 2px;
+  text-decoration: none;
+  color: #1d3059;
+  margin-top: 30px;
+  padding: 15px 25px;
+  background: white;
+  display: inline-block;
+  opacity: 0.8;
+  font-weight: 600;
+  border: 1px solid #1d3059;
+  border-radius: 2px;
 }
 
 main p {
-    font-size: 18px;
-    line-height: 1.5;
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 main h3 {
-font-size: 28px;
+  font-size: 28px;
 }
 
 .img-size {
- width:500px;
+  width: 500px;
 }
 
 .card {
-    background-color: #fff;
+  background-color: #fff;
 }
 
 .card-main {
-    padding: 10px;
-    height: 475px;
+  padding: 30px;
 }
 
 .card-footer {
-    padding: 0px 20px 10px;
+  padding: 0px 20px 10px;
 }
 
 .btn {
-    padding: 20px;
-    background-color: #1D3059;
-    color: #fff;
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    font-weight: 500;
+  padding: 20px;
+  background-color: #1d3059;
+  color: #fff;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 3px;
+  text-transform: uppercase;
 }
 
 .card-image {
-width: 150px;
-height: 150px;
+  width: 200px;
+  height: 150px;
+}
 
+.embed {
+  aspect-ratio: 3/1;
+}
+
+.grid.card-header {
+  grid-gap: 0px;
 }
 
 .img-responsive {
-    max-width: 100%;
+  max-width: 100%;
+  display: block;
 }
 
-.grid-col-2{
- grid-template-columns: 1fr 1fr;
+.grid-col-2 {
+  grid-template-columns: 1fr 1fr;
 }
 
 .grid {
-    display: grid;
-    grid-gap: 15px;
+  display: grid;
+  grid-gap: 15px;
 }
 .grid-3-equal-col {
-    grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .text-center {
-    text-align: center;
+  text-align: center;
 }
 footer {
-    color: white;
-    background-image: linear-gradient(rgba(29, 48, 89, 0.9), rgba(29,48,89,0.9)),
+  color: white;
+  background-image: linear-gradient(
+      rgba(29, 48, 89, 0.9),
+      rgba(29, 48, 89, 0.9)
+    ),
     url("../images/edinburgh-footer.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -139,56 +152,70 @@ footer {
 }
 
 footer h4 {
-    opacity: 0.9;
+  opacity: 0.9;
 }
 
 footer ul {
-    padding: 0;
+  padding: 0;
 }
 
 footer li {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    line-height: 1.5;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
 }
 
 footer a {
-    color: #fff;
-    opacity: 0.7;
+  color: #fff;
+  opacity: 0.7;
 }
 
 footer p {
-    line-height: 1.5;
-    font-size: 16px;
-    opacity: 0.7;
-    font-weight: 400;
+  line-height: 1.5;
+  font-size: 16px;
+  opacity: 0.7;
+  font-weight: 400;
 }
 
 .grid-col-3 {
-grid-template-columns: 1fr 2fr 2fr;
+  grid-template-columns: 1fr 2fr 2fr;
 }
 
-@media (max-width: 768px) {
-    header h1 {
-        font-size: 50px;
-        padding: 10px 0;
-        letter-spacing: 6px;
-    }
-    header h2 {
-        font-size: 26px;
-        font-weight: 300;
-    }
 
-    header h3 {
-        font-size: 11px;
-    }
-    header a { 
-        font-size: 14px;
-        padding: 10px 15px;
-    }
 
-    .grid-col-2, .grid-col-3 {
-        grid-template-columns: 1fr;
-    }
+
+@media (max-width: 1050px) {
+  header h1 {
+    font-size: 50px;
+    padding: 10px 0;
+    letter-spacing: 6px;
+  }
+  header h2 {
+    font-size: 26px;
+    font-weight: 300;
+  }
+
+  header h3 {
+    font-size: 11px;
+  }
+  header a {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+
+  .grid-col-2,
+  .grid-col-3, .grid-3-equal-col {
+    grid-template-columns: 1fr;
+  }
+
+  .card-header img {
+    display: none;
+  }
+
+  .embed {
+    aspect-ratio: 4/3;
+  }
+  
+
 }
