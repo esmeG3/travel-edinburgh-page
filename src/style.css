@@ -5,18 +5,23 @@ body {
 }
 
 container {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
 main {
     background-color: #fff;
+    padding: 0;
 }
 section {
-    max-width: 1200px;
-    margin: 0 auto;
+    max-width: 100%;
+    margin: 0;
+    padding: 100px;
 }
 
+.secondary {
+    background-color: #F1F1F1;
+}
 
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), 
@@ -43,7 +48,7 @@ header h2 {
     margin: 0;
 }
 
-header h3 {
+header h3, main h2 {
 font-size: 22px;
 letter-spacing: 7px;
 margin: 0;
@@ -63,21 +68,46 @@ border: 1px solid #1D3059;
 border-radius: 2px;
 }
 
-main {
-    padding: 30px;
-
-}
 main p {
     font-size: 18px;
     line-height: 1.5;
 }
 
 main h3 {
-    font-size: 28px;
+font-size: 28px;
 }
 
 .img-size {
-    width:500px;
+ width:500px;
+}
+
+.card {
+    background-color: #fff;
+}
+
+.card-main {
+    padding: 10px;
+    height: 475px;
+}
+
+.card-footer {
+    padding: 0px 20px 10px;
+}
+
+.btn {
+    padding: 20px;
+    background-color: #1D3059;
+    color: #fff;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.card-image {
+width: 150px;
+height: 150px;
+
 }
 
 .img-responsive {
@@ -92,14 +122,20 @@ main h3 {
     display: grid;
     grid-gap: 15px;
 }
+.grid-3-equal-col {
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
+.text-center {
+    text-align: center;
+}
 footer {
     color: white;
     background-image: linear-gradient(rgba(29, 48, 89, 0.9), rgba(29,48,89,0.9)),
     url("../images/edinburgh-footer.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 100px 0;
+  padding: 20px 0;
 }
 
 footer h4 {
@@ -116,6 +152,7 @@ footer li {
     padding: 0;
     line-height: 1.5;
 }
+
 footer a {
     color: #fff;
     opacity: 0.7;
@@ -128,9 +165,8 @@ footer p {
     font-weight: 400;
 }
 
-.gird-col-3 {
+.grid-col-3 {
 grid-template-columns: 1fr 2fr 2fr;
-
 }
 
 @media (max-width: 768px) {
@@ -152,7 +188,7 @@ grid-template-columns: 1fr 2fr 2fr;
         padding: 10px 15px;
     }
 
-    .grid-col-2, .gird-col-3 {
+    .grid-col-2, .grid-col-3 {
         grid-template-columns: 1fr;
     }
 }
